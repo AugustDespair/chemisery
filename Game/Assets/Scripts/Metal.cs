@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemBehaviour : MonoBehaviour
+public class Metal : MonoBehaviour
 {
-    public string group = "base";
+     public string group = "metal";
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
